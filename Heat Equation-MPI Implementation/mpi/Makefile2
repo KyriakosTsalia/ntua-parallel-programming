@@ -1,0 +1,20 @@
+RES=-DPRINT_RESULTS
+CFLAGS=-O3 -lm -Wall
+CC=mpicc
+CONV=-DTEST_CONV
+
+seidelsor_parallel: seidelsor_parallel.o utils.o
+	$(CC) $(CFLAGS) $(RES) $(CONV) seidelsor_parallel.o utils.o -o seidelsor_parallel
+
+utils.o: utils.c
+	gcc -c  $(CFLAGS) $(RES) $(CONV) utils.c
+
+seidelsor_parallel.o: seidelsor_parallel.c
+	$(CC) -c  $(CFLAGS) $(RES) $(CONV) seidelsor_parallel.c
+
+
+
+
+
+
+

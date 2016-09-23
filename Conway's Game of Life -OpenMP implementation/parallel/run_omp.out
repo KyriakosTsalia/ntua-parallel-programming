@@ -1,0 +1,23 @@
+1:GameOfLife: Size 64 Steps 1000 Time 0.134197
+2:GameOfLife: Size 64 Steps 1000 Time 0.068737
+4:GameOfLife: Size 64 Steps 1000 Time 0.038157
+6:GameOfLife: Size 64 Steps 1000 Time 0.028451
+8:GameOfLife: Size 64 Steps 1000 Time 0.022536
+(όμοια)
+GameOfLife: Size 1024 Steps 1000 Time 36.573133
+GameOfLife: Size 1024 Steps 1000 Time 18.199994
+GameOfLife: Size 1024 Steps 1000 Time 9.108890
+GameOfLife: Size 1024 Steps 1000 Time 6.093828
+GameOfLife: Size 1024 Steps 1000 Time 4.573543
+
+GameOfLife: Size 4096 Steps 1000 Time 588.985180
+GameOfLife: Size 4096 Steps 1000 Time 294.602210
+GameOfLife: Size 4096 Steps 1000 Time 147.505950
+GameOfLife: Size 4096 Steps 1000 Time 98.546464
+GameOfLife: Size 4096 Steps 1000 Time 74.007624
+
+
+serial:
+GameOfLife: Size 64 Steps 1000 Time 0.121468
+GameOfLife: Size 1024 Steps 1000 Time 33.185145
+GameOfLife: Size 4096 Steps 1000 Time 535.950278

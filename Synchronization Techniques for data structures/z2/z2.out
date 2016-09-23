@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c ttas_lock.c ../common/aff.c -o linked_list

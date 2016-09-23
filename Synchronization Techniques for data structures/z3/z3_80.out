@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -pthread -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c ll_nb.c ../common/aff.c -o linked_list
